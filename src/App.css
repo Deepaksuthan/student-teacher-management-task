@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: ghostwhite;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-left: 75%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 50px;
+  background-color: white;
+}
+
+.title {
+  height: 60px;
+  font-size: 400%;
+  font-weight: 700;
+  background-color:white;
+  color: rgb(17, 17, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-user,
+.card-body {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 50%;
+  height: 300px;
+}
+
+.btn-grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-log {
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-label {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+tr {
+  border: 1px solid lightgrey;
+}
+
+.card {
+  width: 30%;
+  height: 50%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card > h2 {
+  height: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card > button {
+  width: 50%;
+}
+
+.no-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home {
+  width: 500%;
+  height: 500%;
+  background-image: url("https://www.greatschools.org/gk/wp-content/uploads/2014/03/The-school-visit-what-to-look-for-what-to-ask-1-750x325.jpg");
+}
